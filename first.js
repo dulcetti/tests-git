@@ -2,9 +2,9 @@
   console.info("Olar, vem sempre aqui?");
   console.info("Mais um console");
 
-  function myMethod() {
+  function myMethod(text) {
     return "Tá tudo bem";
   }
 
-  myMethod();
+  myMethod(", meu nobre?");
 })(window, document);
