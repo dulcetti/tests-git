@@ -3,7 +3,7 @@
   console.info("Mais um console");
 
   function myMethod(text) {
-    return "Tá tudo bem";
+    return `Tá tudo bem${text}`;
   }
 
   myMethod(", meu nobre?");
