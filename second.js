@@ -1,8 +1,8 @@
 ((win, doc) => {
   win.alert("Oie");
 
-  function secondMethod(name) {
-    return `My name is ${name}`;
+  function secondMethod(name, lastName) {
+    return `My name is ${name} ${lastName}`;
   }
 
   secondMethod("Bruno");
